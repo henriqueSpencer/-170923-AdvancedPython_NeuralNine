@@ -11,6 +11,13 @@ class Person:
         """
         print("objeto deletado")
 
+    def __call__(self):
+        """
+        permite que o objeto seja chamado como uma funcao
+        :return:
+        """
+        print("chamando como uma funcao")
+
     def __add__(self, outra):
         """
         diz como tratar uma adicao dos objetos
